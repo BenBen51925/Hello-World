@@ -10,6 +10,7 @@ import java.util.concurrent.CountDownLatch;
 然后开100个线程分别向这个ArrayList里面添加元素，
 每个线程添加100个元素，等所有线程执行完成后，
 这个ArrayList的size应该是多少？应该是10000个？*/
+//
 public class Main
 {
     public static void main(String[] args)
